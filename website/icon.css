@@ -1,0 +1,130 @@
+body {
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+    position: relative;
+    height: 100vh;
+    justify-content: flex-start; /* Change here */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 3s ease-in-out; 
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 38px;
+    margin-top: 130px;
+}
+ 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Changed this */
+  align-items: center;
+  height: 100vh;
+}
+
+
+.lumina-text {
+    font-family: "Arial", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 5%;
+}
+
+.button {
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    background-color: #4c515b;
+    color: white;
+    padding: 1.0rem 1rem;
+    outline: 5px solid #5e636e;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    position: absolute;
+    bottom: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .button-img {
+    display: inline-block;
+    background-color: #4c515b;
+    color: white;
+    padding: 0.9rem 0.9rem;
+    outline: 5px solid #5e636e;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+    border-radius: 5%;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 90px;
+    height: 90px;
+    border-radius: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  .button-img:hover {
+    transform: scale(1.1);
+  }
+  
+  .button-img:hover {
+    background: linear-gradient(45deg, #ff00de, #ffcc00, #00ff7f);
+    background-size: 600% 600%;
+    animation: gradient 6s ease infinite;
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  .button:hover {
+    background: linear-gradient(45deg, #ff00de, #ffcc00, #00ff7f);
+    background-size: 600% 600%; 
+    animation: gradient 10s ease infinite;
+    transform: scale(2.05) translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .stormcph-text {
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #3a3d42;
+    position: absolute;
+    bottom: -150%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: underline;
+  }
+
+
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

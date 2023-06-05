@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.stormcph.lumina.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityMixin",
+    "PlayerMoveC2SPacketMixin",
+    "Vec3dMixin"
+  ],
+  "client": [
+    "AbstractBlockStateMixin",
+    "AbstractClientPlayerEntityMixin",
+    "ChatHudMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "EntityRendererMixin",
+    "HeldItemRendererMixin",
+    "InGameHudMixin",
+    "KeyboardMixin",
+    "LivingEntityMixin",
+    "MinecraftClientMixin",
+    "MixinClientConnection",
+    "MultiplayerScreenMixin",
+    "MultiplayerScreenAccessor",
+    "PlayerListHudMixin",
+    "SessionMixin",
+    "TitleScreenMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "Lumina-Client-Alpha-refmap.json"
+}

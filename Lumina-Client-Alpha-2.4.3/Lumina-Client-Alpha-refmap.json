@@ -1,0 +1,130 @@
+{
+  "mappings": {
+    "me/stormcph/lumina/mixins/AbstractBlockStateMixin": {
+      "getRenderType": "Lnet/minecraft/class_4970$class_4971;method_26217()Lnet/minecraft/class_2464;"
+    },
+    "me/stormcph/lumina/mixins/AbstractClientPlayerEntityMixin": {
+      "getCapeTexture": "Lnet/minecraft/class_742;method_3119()Lnet/minecraft/class_2960;"
+    },
+    "me/stormcph/lumina/mixins/ChatHudMixin": {
+      "addMessage(Lnet/minecraft/text/Text;Lnet/minecraft/network/message/MessageSignatureData;ILnet/minecraft/client/gui/hud/MessageIndicator;Z)V": "Lnet/minecraft/class_338;method_1815(Lnet/minecraft/class_2561;Lnet/minecraft/class_7469;ILnet/minecraft/class_7591;Z)V"
+    },
+    "me/stormcph/lumina/mixins/ClientPlayNetworkHandlerMixin": {
+      "sendChatMessage": "Lnet/minecraft/class_634;method_45729(Ljava/lang/String;)V",
+      "sendPacket*": "Lnet/minecraft/class_634;method_2883(Lnet/minecraft/class_2596;)V"
+    },
+    "me/stormcph/lumina/mixins/EntityMixin": {
+      "move": "Lnet/minecraft/class_1297;method_5784(Lnet/minecraft/class_1313;Lnet/minecraft/class_243;)V"
+    },
+    "me/stormcph/lumina/mixins/EntityRendererMixin": {
+      "renderLabelIfPresent": "Lnet/minecraft/class_897;method_3926(Lnet/minecraft/class_1297;Lnet/minecraft/class_2561;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "me/stormcph/lumina/mixins/HeldItemRendererMixin": {
+      "renderFirstPersonItem": "Lnet/minecraft/class_759;method_3228(Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+      "renderItem(FLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider$Immediate;Lnet/minecraft/client/network/ClientPlayerEntity;I)V": "Lnet/minecraft/class_759;method_22976(FLnet/minecraft/class_4587;Lnet/minecraft/class_4597$class_4598;Lnet/minecraft/class_746;I)V",
+      "updateHeldItems": "Lnet/minecraft/class_759;method_3220()V"
+    },
+    "me/stormcph/lumina/mixins/InGameHudMixin": {
+      "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V"
+    },
+    "me/stormcph/lumina/mixins/KeyboardMixin": {
+      "onKey": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+    },
+    "me/stormcph/lumina/mixins/LivingEntityMixin": {
+      "swingHand(Lnet/minecraft/util/Hand;)V": "Lnet/minecraft/class_1309;method_6104(Lnet/minecraft/class_1268;)V"
+    },
+    "me/stormcph/lumina/mixins/MinecraftClientMixin": {
+      "hasOutline": "Lnet/minecraft/class_310;method_27022(Lnet/minecraft/class_1297;)Z",
+      "scheduleStop": "Lnet/minecraft/class_310;method_1592()V",
+      "tick": "Lnet/minecraft/class_310;method_1574()V"
+    },
+    "me/stormcph/lumina/mixins/MixinClientConnection": {
+      "Lnet/minecraft/network/ClientConnection;handlePacket(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/listener/PacketListener;)V": "Lnet/minecraft/class_2535;method_10759(Lnet/minecraft/class_2596;Lnet/minecraft/class_2547;)V",
+      "channelRead0*": "Lnet/minecraft/class_2535;method_10770(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/class_2596;)V",
+      "handlePacket": "Lnet/minecraft/class_2535;method_10759(Lnet/minecraft/class_2596;Lnet/minecraft/class_2547;)V"
+    },
+    "me/stormcph/lumina/mixins/MultiplayerScreenAccessor": {
+      "parent": "field_3049:Lnet/minecraft/class_437;"
+    },
+    "me/stormcph/lumina/mixins/MultiplayerScreenMixin": {
+      "render": "Lnet/minecraft/class_500;method_25394(Lnet/minecraft/class_4587;IIF)V"
+    },
+    "me/stormcph/lumina/mixins/PlayerListHudMixin": {
+      "getPlayerName": "Lnet/minecraft/class_355;method_1918(Lnet/minecraft/class_640;)Lnet/minecraft/class_2561;"
+    },
+    "me/stormcph/lumina/mixins/TitleScreenMixin": {
+      "tick": "Lnet/minecraft/class_442;method_25393()V"
+    },
+    "me/stormcph/lumina/mixins/WorldRendererMixin": {
+      "render": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V"
+    },
+    "me/stormcph/lumina/mixins/WorldSessionMixin": {
+      "onLoad": "Lnet/minecraft/class_7975;method_47775()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/stormcph/lumina/mixins/AbstractBlockStateMixin": {
+        "getRenderType": "Lnet/minecraft/class_4970$class_4971;method_26217()Lnet/minecraft/class_2464;"
+      },
+      "me/stormcph/lumina/mixins/AbstractClientPlayerEntityMixin": {
+        "getCapeTexture": "Lnet/minecraft/class_742;method_3119()Lnet/minecraft/class_2960;"
+      },
+      "me/stormcph/lumina/mixins/ChatHudMixin": {
+        "addMessage(Lnet/minecraft/text/Text;Lnet/minecraft/network/message/MessageSignatureData;ILnet/minecraft/client/gui/hud/MessageIndicator;Z)V": "Lnet/minecraft/class_338;method_1815(Lnet/minecraft/class_2561;Lnet/minecraft/class_7469;ILnet/minecraft/class_7591;Z)V"
+      },
+      "me/stormcph/lumina/mixins/ClientPlayNetworkHandlerMixin": {
+        "sendChatMessage": "Lnet/minecraft/class_634;method_45729(Ljava/lang/String;)V",
+        "sendPacket*": "Lnet/minecraft/class_634;method_2883(Lnet/minecraft/class_2596;)V"
+      },
+      "me/stormcph/lumina/mixins/EntityMixin": {
+        "move": "Lnet/minecraft/class_1297;method_5784(Lnet/minecraft/class_1313;Lnet/minecraft/class_243;)V"
+      },
+      "me/stormcph/lumina/mixins/EntityRendererMixin": {
+        "renderLabelIfPresent": "Lnet/minecraft/class_897;method_3926(Lnet/minecraft/class_1297;Lnet/minecraft/class_2561;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "me/stormcph/lumina/mixins/HeldItemRendererMixin": {
+        "renderFirstPersonItem": "Lnet/minecraft/class_759;method_3228(Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+        "renderItem(FLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider$Immediate;Lnet/minecraft/client/network/ClientPlayerEntity;I)V": "Lnet/minecraft/class_759;method_22976(FLnet/minecraft/class_4587;Lnet/minecraft/class_4597$class_4598;Lnet/minecraft/class_746;I)V",
+        "updateHeldItems": "Lnet/minecraft/class_759;method_3220()V"
+      },
+      "me/stormcph/lumina/mixins/InGameHudMixin": {
+        "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V"
+      },
+      "me/stormcph/lumina/mixins/KeyboardMixin": {
+        "onKey": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+      },
+      "me/stormcph/lumina/mixins/LivingEntityMixin": {
+        "swingHand(Lnet/minecraft/util/Hand;)V": "Lnet/minecraft/class_1309;method_6104(Lnet/minecraft/class_1268;)V"
+      },
+      "me/stormcph/lumina/mixins/MinecraftClientMixin": {
+        "hasOutline": "Lnet/minecraft/class_310;method_27022(Lnet/minecraft/class_1297;)Z",
+        "scheduleStop": "Lnet/minecraft/class_310;method_1592()V",
+        "tick": "Lnet/minecraft/class_310;method_1574()V"
+      },
+      "me/stormcph/lumina/mixins/MixinClientConnection": {
+        "Lnet/minecraft/network/ClientConnection;handlePacket(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/listener/PacketListener;)V": "Lnet/minecraft/class_2535;method_10759(Lnet/minecraft/class_2596;Lnet/minecraft/class_2547;)V",
+        "channelRead0*": "Lnet/minecraft/class_2535;method_10770(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/class_2596;)V",
+        "handlePacket": "Lnet/minecraft/class_2535;method_10759(Lnet/minecraft/class_2596;Lnet/minecraft/class_2547;)V"
+      },
+      "me/stormcph/lumina/mixins/MultiplayerScreenAccessor": {
+        "parent": "field_3049:Lnet/minecraft/class_437;"
+      },
+      "me/stormcph/lumina/mixins/MultiplayerScreenMixin": {
+        "render": "Lnet/minecraft/class_500;method_25394(Lnet/minecraft/class_4587;IIF)V"
+      },
+      "me/stormcph/lumina/mixins/PlayerListHudMixin": {
+        "getPlayerName": "Lnet/minecraft/class_355;method_1918(Lnet/minecraft/class_640;)Lnet/minecraft/class_2561;"
+      },
+      "me/stormcph/lumina/mixins/TitleScreenMixin": {
+        "tick": "Lnet/minecraft/class_442;method_25393()V"
+      },
+      "me/stormcph/lumina/mixins/WorldRendererMixin": {
+        "render": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V"
+      },
+      "me/stormcph/lumina/mixins/WorldSessionMixin": {
+        "onLoad": "Lnet/minecraft/class_7975;method_47775()V"
+      }
+    }
+  }
+}

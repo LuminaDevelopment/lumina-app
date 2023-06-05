@@ -1,0 +1,25 @@
+.title-bar {
+    -webkit-app-region: drag;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color: transparent;
+  }
+  
+  .title-bar-button {
+    width: 16px;
+    height: 16px;
+    margin: 7px;
+    border-radius: 50%;
+  }
+  
+  .title-bar-button.minimize {
+    background-color: #FFC164;
+  }
+  
+  .title-bar-button.close {
+    background-color: #FA6464;
+  }
+  
