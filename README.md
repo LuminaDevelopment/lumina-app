@@ -9,4 +9,4 @@ these setting are made to stay hidden if a admin were to look in your in-game mo
 2. You need to have npm installed. It comes with Node.js, so if you've installed Node.js, you're good to go.
 3. Familiarize yourself with Vite, React, and Electron.
 
-__this readme.md file is defenitly not made using chatgpt👀__
+_this readme.md file is defenitly not made using chatgpt👀_
